@@ -23,4 +23,4 @@ jobs:
 
       - name: Create S3 Bucket
         run: |
-          aws s3api create-bucket --bucket dhana123 --region us-east-2 --create-bucket-configuration LocationConstraint=us-east-2
+          aws s3api create-bucket --bucket munna --region us-east-2 --create-bucket-configuration LocationConstraint=us-east-2
